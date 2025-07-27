@@ -182,19 +182,40 @@
 
 // console.log("Bo'sh qolgan kesma uzunligi:", qoldiq);
 
-//                                    No_11
+//                                    No_12
+
+// let A = 18;
+// let B = 5;
+
+// let soni = 0;
+
+// while (A >= B) {
+//   A -= B;
+//   soni = soni + 1;
+// }
+
+// console.log(`B kesmalar soni ${soni} ta`);
+
+//                                    No_13
 
 
-//                                    No_11
+
+//                                    No_14
 
 
-//                                    No_11
+//                                    No_15
 
 
-//                                    No_11
+//                                    No_16
 
 
-//                                    No_11
+//                                    No_17
 
 
-//                                    No_11
+//                                    No_18
+
+
+//                                    No_19
+
+
+//                                    No_20
