@@ -129,7 +129,7 @@
 //   }
 // }
 
-// console.log(`${number} ning ${loop} ta bo'linuvchisi bor`)
+// console.log(`${number} ning ${loop} ta bo'linuvchisi two`)
 // console.log(`${number} ning bo'linuvchilar yig'indi ${total}`)
 
 //                                    No_9
@@ -198,24 +198,143 @@
 
 //                                    No_13
 
+// let n = 27;
+// let x = 1;
+
+// while (x < n) {
+//   x = x + x + x;
+// }
+
+// if (x === n) {
+//   console.log("3 - ning darajasi");
+// } else {
+//   console.log("3 - ning darajasi emas");
+// }
 
 
 //                                    No_14
 
+// let n = 20;
+// let m = 8;
+
+// let natija = 0;
+// let qoldiq = null;
+
+// if (n > m) {
+//   let originalN = n
+//   while (n >= m) {
+//     n -= m;
+//     natija ++;
+//   }
+//   qoldiq = n;
+//   console.log(`${originalN} / ${m} = ${natija} \nqoldiq ${qoldiq}`)
+// } else {
+//   console.log("n > m bo'lishi kerak");
+// }
+
 
 //                                    No_15
+
+// let n = 546;
+// let result = '';
+
+// while (n > 0) {
+//   let raqam = n % 10;
+//   n = Math.floor(n / 10);
+//   result += raqam;
+// }
+// console.log(+ result);
 
 
 //                                    No_16
 
+// let n = 123456;
+// let total = 0;
+// let loop = 0;
+
+// while (n > 0) {
+//     let raqam = n % 10;
+//     total += raqam;
+//     loop++;
+//     n = Math.floor(n / 10);
+// }
+
+// console.log("Raqamlar yig'indisi:", total);
+// console.log("Raqamlar soni:", loop);
 
 //                                    No_17
+
+// let n = 1345;
+// let two = false;
+
+// while (n > 0) {
+//   let raqam = n % 10;
+//   if (raqam == 2) {
+//     two = true;
+//     break;
+//   }
+//   n = Math.floor(n / 10);
+// }
+
+// if (two) {
+//   console.log("2 raqami mavjud.");
+// } else {
+//   console.log("2 raqami yo'q.");
+// }
 
 
 //                                    No_18
 
+// let n = 86;
+// let toq = false;
+
+// while (n > 0) {
+//   let raqam = n % 10;
+//   if (raqam % 2 === 1) {
+//     toq = true;
+//     break;
+//   }
+//   n = Math.floor(n / 10);
+// }
+
+// if (toq) {
+//   console.log("Toq raqam mavjud.");
+// } else {
+//   console.log("Toq raqam yo'q.");
+// }
+
+
 
 //                                    No_19
 
+// let n = 456654;
+// let originalN = n;
+// let palindrom = 0;
+
+// while (n > 0) {
+//     let raqam = n % 10;
+//     palindrom = palindrom * 10 + raqam;
+//     n = Math.floor(n / 10);
+// }
+
+// let natija = (originalN === palindrom);
+// console.log(natija);
+
 
 //                                    No_20
+
+// let n = 32;
+// let i = 2;
+
+// while (i <= Math.sqrt(n)) {
+//   if (n % i === 0) {
+//     console.log(n + " soni tub emas.");
+//     break;
+//   }
+//   i++;
+// }
+
+// if (i > Math.sqrt(n)) {
+//   console.log(n + " soni tub.");
+// }
+
